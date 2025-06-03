@@ -17,15 +17,31 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 1rem 2rem;
+      padding: 0.5rem 2rem;
       border-bottom: 2px solid #d62828;
+      flex-wrap: wrap;
     }
 
-    .logo {
-      font-size: 1.8rem;
+    .logo-container {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo-container img {
+      height: 60px;
+      margin-right: 15px;
+    }
+
+    .logo-text {
+      font-size: 1.6rem;
       color: #f1c40f;
       font-weight: bold;
       letter-spacing: 2px;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
     }
 
     nav a {
@@ -75,9 +91,13 @@
     }
 
     @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
       nav a {
-        margin-left: 1rem;
-        font-size: 0.9rem;
+        margin: 0.5rem 0;
       }
 
       .hero h1 {
@@ -93,7 +113,10 @@
 <body>
 
   <header>
-    <div class="logo">Cornerstone Crust</div>
+    <div class="logo-container">
+      <img src="IMG_1314.png" alt="Cornerstone Crust Logo">
+      <div class="logo-text">Cornerstone Crust</div>
+    </div>
     <nav>
       <a href="#">Home</a>
       <a href="#">About Us</a>
