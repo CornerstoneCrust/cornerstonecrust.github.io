@@ -1,1 +1,116 @@
-<!DOCTYPE html><html><head><title>Cornerstone Crust</title></head><body><h1>Home</h1></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cornerstone Crust</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0b0b0b;
+      color: #fff;
+    }
+
+    header {
+      background-color: #111;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      border-bottom: 2px solid #d62828;
+    }
+
+    .logo {
+      font-size: 1.8rem;
+      color: #f1c40f;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+
+    nav a {
+      margin-left: 2rem;
+      text-decoration: none;
+      color: #fff;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #f1c40f;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 5rem 2rem;
+      background: url('https://images.unsplash.com/photo-1601924928161-54f64d1d0667?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80') center/cover no-repeat;
+      color: #fff;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      background-color: rgba(0,0,0,0.6);
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      border-radius: 10px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: rgba(0,0,0,0.5);
+      padding: 1rem;
+      border-radius: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background-color: #111;
+      color: #888;
+      font-size: 0.9rem;
+      margin-top: 4rem;
+    }
+
+    @media (max-width: 768px) {
+      nav a {
+        margin-left: 1rem;
+        font-size: 0.9rem;
+      }
+
+      .hero h1 {
+        font-size: 2.2rem;
+      }
+
+      .hero p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">Cornerstone Crust</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About Us</a>
+      <a href="#">Upcoming Events</a>
+      <a href="#">Bookings</a>
+      <a href="#">Socials</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to Cornerstone Crust</h1>
+    <p>Wood-fired flavour. Unforgettable events. Come taste tradition with a twist – made fresh under the open sky.</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Cornerstone Crust. All rights reserved.
+  </footer>
+
+</body>
+</html>
