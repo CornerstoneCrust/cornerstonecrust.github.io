@@ -1,0 +1,20 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  background: #111;
+}
+nav ul li a {
+  color: red;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: yellow;
+}
