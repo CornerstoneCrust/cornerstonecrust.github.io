@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Cornerstone Crust</title>
-  <!-- Google Fonts -->
+  <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
   <style>
     body {
@@ -68,18 +68,30 @@
     .hero h1 {
       font-family: 'Playfair Display', serif;
       font-size: 4rem;
-      margin-bottom: 1rem;
-      background-color: rgba(0,0,0,0.6);
+      margin-bottom: 0.5rem;
+      background-color: rgba(0, 0, 0, 0.6);
       display: inline-block;
       padding: 0.5rem 1rem;
       border-radius: 10px;
+    }
+
+    .hero-subheading {
+      font-size: 1.8rem;
+      margin-top: 0;
+      margin-bottom: 1.5rem;
+      font-style: italic;
+      color: #f1c40f;
+      background-color: rgba(0, 0, 0, 0.3);
+      display: inline-block;
+      padding: 0.3rem 0.8rem;
+      border-radius: 8px;
     }
 
     .hero p {
       font-size: 1.2rem;
       max-width: 600px;
       margin: 0 auto;
-      background-color: rgba(0,0,0,0.5);
+      background-color: rgba(0, 0, 0, 0.3); /* 50% transparent */
       padding: 1rem;
       border-radius: 8px;
     }
@@ -105,6 +117,10 @@
 
       .hero h1 {
         font-size: 2.5rem;
+      }
+
+      .hero-subheading {
+        font-size: 1.3rem;
       }
 
       .hero p {
@@ -139,6 +155,7 @@
 
   <section class="hero">
     <h1>Welcome to Cornerstone Crust</h1>
+    <h2 class="hero-subheading">Where no corners are cut!</h2>
     <p>Wood-fired flavour. Unforgettable events. Come taste tradition with a twist – made fresh under the open sky.</p>
   </section>
 
